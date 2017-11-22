@@ -1,6 +1,9 @@
 [
 	{
 		"path": "/*",
-		"data": true
+		"data": true,
+		"auth": {
+			"validator": "$auth != null"
+		}
 	}
 ]
